@@ -1,4 +1,1 @@
 tdd-workshop
-============
-
-TDD Workshop
