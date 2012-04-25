@@ -1,11 +1,11 @@
 #Test Driven Development Workshop
 ##Centric Consulting
 
-**Test Driven Development** (TDD) is a powerful software development practice for combining software design, unit testing, and coding in a continuous process to increase quality, maintainability, and productivity. Using TDD, developers build software in short development cycles following a workflow pattern called Red - Green - Refactor
+**Test Driven Development** (TDD) is a powerful software development practice for combining software design, unit testing, and coding in a continuous process to increase quality, maintainability, and productivity. Using TDD, developers build software in short development cycles following a workflow pattern called Red - Green - Refactor:
 
-1. (<font color='red'>RED</font>) First the developer writes a failing automated test case that defines a new function or improvement,
-2. (<font color='green'>GREEN</font>) then produces code to pass that test, and
-3. (<font color='blue'>REFACTOR</font>) finally refactors the new code to acceptable standards.
+1. (<font color='red'>RED</font>) The developer writes a failing automated test case that defines a new function or improvement
+2. (<font color='green'>GREEN</font>) Write minimal code to pass that test
+3. (<font color='blue'>REFACTOR</font>) Refactors the new code or existing code to acceptable standards
 
 The developer repeats this process many times until the unit is complete and fully tested.
 
@@ -20,9 +20,17 @@ Developers who are interested in introducing TDD into their team’s tool-box of
 #####Schedule
 The emphasis will be on learning by doing. There will be some preliminary demonstration and discussion, but we will forgo lengthy debate in favor of spending enough time on the labs. Each participant will receive personal attention from our team.
 
-- (30 min) I provide my TDD demo, to convey the basic practices and to convey the subtleties of the TDD "test-infected" mindset.
-- (45 min) We then do the coding lab: A kata that is simple on the surface, but drives participants to think about design almost immediately.
-- (10 min) A brief retrospective on this lab draws out all the critical lessons.
+* (60 min) First sesstion presentation
+	* Introduction
+	* The Case for TDD
+	* Types of Testing
+	* Example
+* (120 min) Pairing session.  30-minute sessions executing any of several code katas.
+* LUNCH BREAK
+* (60 min) Afternoon session presentation
+	* Design for testability 
+	* How to get started on my project
+* (120 min) Pairing session, Legacy refactor.
 
 #####Learning Objectives
 
@@ -36,6 +44,6 @@ The emphasis will be on learning by doing. There will be some preliminary demons
 #####Presenter
 	Shawn Wallace has about 20 years of software development under his belt.  When he was introduced to TDD in 2007, it was truly a turning point in his carreer.  He uses TDD on a daily basis. He will demonstrate the basics, and to convey the subtle “test-infected” mindset that drives developers to appreciate, adopt, and even enjoy working this way.
 
-	Shawn is an Architect with Centric Consulting in Columbus, Ohio. Working primarily with Microsoft tools and tech, he has been building software for all kinds of clients and even owned a software company for 9 years.  He has been a certified trainer since 1997.  Shawn is a former US Marine Infantryman and enjoys all things tech, learning about new shiny things, building things, shooting sports and coaching his son in football and watching all of the awesome things his daughter does. He resides in Grove City, Ohio with his family.
+	Shawn is an Architect with Centric Consulting in Columbus, Ohio. Working primarily with Microsoft tools and tech, he has been building software for all kinds of clients and even owned a software company for several years.  He has been a certified trainer since 1997.  Shawn is a former US Marine Infantryman and enjoys all things tech, learning about new shiny things, building things, shooting sports and coaching his son in football and watching all of the awesome things his daughter does. He resides in Grove City, Ohio with his family.
 
 
