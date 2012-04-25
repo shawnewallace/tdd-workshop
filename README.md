@@ -1,5 +1,4 @@
-#Test Driven Development Workshop
-##Centric Consulting
+##Centric Consulting - Test Driven Development Workshop
 
 **Test Driven Development** (TDD) is a powerful software development practice for combining software design, unit testing, and coding in a continuous process to increase quality, maintainability, and productivity. Using TDD, developers build software in short development cycles following a workflow pattern called Red - Green - Refactor:
 
