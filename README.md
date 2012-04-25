@@ -41,8 +41,8 @@ The emphasis will be on learning by doing. There will be some preliminary demons
 - Learn how TDD enables Emergent Design and can improve architectural-change cycle times.
 
 #####Presenter
-	Shawn Wallace has about 20 years of software development under his belt.  When he was introduced to TDD in 2007, it was truly a turning point in his carreer.  He uses TDD on a daily basis. He will demonstrate the basics, and to convey the subtle “test-infected” mindset that drives developers to appreciate, adopt, and even enjoy working this way.
+Shawn Wallace has about 20 years of software development under his belt.  When he was introduced to TDD in 2007, it was truly a turning point in his carreer.  He uses TDD on a daily basis. He will demonstrate the basics, and to convey the subtle “test-infected” mindset that drives developers to appreciate, adopt, and even enjoy working this way.
 
-	Shawn is an Architect with Centric Consulting in Columbus, Ohio. Working primarily with Microsoft tools and tech, he has been building software for all kinds of clients and even owned a software company for several years.  He has been a certified trainer since 1997.  Shawn is a former US Marine Infantryman and enjoys all things tech, learning about new shiny things, building things, shooting sports and coaching his son in football and watching all of the awesome things his daughter does. He resides in Grove City, Ohio with his family.
+Shawn is an Architect with Centric Consulting in Columbus, Ohio. Working primarily with Microsoft tools and tech, he has been building software for all kinds of clients and even owned a software company for several years.  He has been a certified trainer since 1997.  Shawn is a former US Marine Infantryman and enjoys all things tech, learning about new shiny things, building things, shooting sports and coaching his son in football and watching all of the awesome things his daughter does. He resides in Grove City, Ohio with his family.
 
 
