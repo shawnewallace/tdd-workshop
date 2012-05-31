@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    margin: 10px 13px 10px 13px;
+}
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+@media screen and (min-width: 768px) {
+    body {
+        width: 748px;
+        margin:10px auto;
+    }
+}
+</style>
+<title>Katas</title>
+</head>
+<body>
+<h1>Katas</h1>
+
+<h4>Fizz Buzz</h4>
+
+<pre><code>Write a program that prints the numbers from 1 to N. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+</code></pre>
+
+<h4>Bowling Game</h4>
+
+<pre><code>The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
+
+A spare is when the player knocks down all 10 pins in two tries.  The bonus for that frame is the number of pins knocked down by the next roll.  So in frame 3 above, the score is 10 (the total number knocked own) plus a bonus of 5 (the number of pins knocked down on the next roll.)
+
+A strike is when the player knocks down all 10 pins on his first try.  The bonus for that frame is the value of the next two balls rolled.
+
+In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.  However no more than three balls can be rolled in tenth frame.
+Write a class named “Game” that has two methods
+
+roll(pins : int) is called each time the player rolls a ball. The argument is the number of pins knocked down.
+score() : int is called only at the very end of the game.  It returns the total score for that game.
+</code></pre>
+
+<h4>Leap Year Calculator</h4>
+
+<pre><code>A year will be a leap year if
+it is divisible by 4 but not by 100.
+If a year is divisible by 4 and by 100,
+it is not a leap year unless it is also divisible by 400.
+</code></pre>
+
+<h4>Tennis Match</h4>
+
+<pre><code>This Kata is about implementing a simple tennis game. I came up with it while thinking about Wii tennis, where they have simplified tennis, so each set is one game.
+
+The scoring system is rather simple:
+
+1. Each player can have either of these points in one game 0 15 30 40
+2. If you have 40 and you win the ball you win the game, however there are special rules.
+3. If both have 40 the players are deuce.
+    a. If the game is in deuce, the winner of a ball will have advantage and game ball.
+    b. If the player with advantage wins the ball he wins the game 
+    c. If the player without advantage wins they are back at deuce.
+</code></pre>
+
+<h4>Roman Numeral Converter</h4>
+
+<pre><code>This kata is about converting from Arabic to Roman Numerals and from Roman to Arabic.
+
+For example, given the following input:
+
+III
+29
+38
+CCXCI
+1999
+
+The correct output is:
+
+3
+XXIX
+XXXVIII
+291
+MCMXCIX
+
+If you're not familiar with or need a refresher on Roman numerals, the rules are simple. First, there are seven letters associated with seven values:
+
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+
+You can combine letters to add values, by listing them largest to smallest from left to right:
+
+II   is 2
+VIII  is 8
+XXXI is 31
+
+However, you may only list three consecutive identical letters. That requires a special rule to express numbers like 4 and 900. That rule is that a single lower value may proceed a larger value, to indicate subtraction. This rule is only used to build values not reachable by the previous rules:
+
+IV is 4
+CM is 900
+
+But 15 is XV, not XVX.
+</code></pre>
+</body>
+</html>
