@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="3DA4E0B6-68A3-4914-A7E8-CB27386C6DA5" ModuleId="mocking-demo.lib" />
+  <Module PersistentId="1469D5FA-876A-4B19-BFA2-5CB055F84614" ModuleId="mocking-demo.lib.tests" />
+</Modules>

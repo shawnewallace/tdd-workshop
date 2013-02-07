@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NUnit.Should</id>
+    <version>1.0.2.0</version>
+    <title>NUnit.Should</title>
+    <authors>remi Taylor</authors>
+    <owners>remi Taylor</owners>
+    <projectUrl>https://github.com/remi/NUnit.Should</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds BDD .Should() assertion syntax to NUnit</description>
+    <summary>Adds BDD .Should() assertion syntax to NUnit</summary>
+    <dependencies>
+      <dependency id="NUnit" version="2.5.9.10348" />
+    </dependencies>
+    <references>
+      <reference file="NUnit.Should.dll" />
+    </references>
+  </metadata>
+</package>

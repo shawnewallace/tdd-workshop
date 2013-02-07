@@ -1,0 +1,52 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1469D5FA-876A-4B19-BFA2-5CB055F84614/f:Class1.cs" caret="162" fromTop="11" />
+      <File id="1469D5FA-876A-4B19-BFA2-5CB055F84614/d:Models/f:BookTests.cs" caret="248" fromTop="13" />
+      <File id="3DA4E0B6-68A3-4914-A7E8-CB27386C6DA5/f:Book.cs" caret="259" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3DA4E0B6-68A3-4914-A7E8-CB27386C6DA5/f:Book.cs" caret="121" fromTop="6" />
+      <File id="3DA4E0B6-68A3-4914-A7E8-CB27386C6DA5/f:Book.cs" caret="256" fromTop="11" />
+      <File id="1469D5FA-876A-4B19-BFA2-5CB055F84614/d:Models/f:BookTests.cs" caret="403" fromTop="22" />
+      <File id="1469D5FA-876A-4B19-BFA2-5CB055F84614/d:Models/f:BookTests.cs" caret="195" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="5" />
+      <Item value="interface" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="SetUp" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="private" priority="0" />
+      <Item value="BookTests`0" priority="0" />
+      <Item value="_book" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="Book" priority="0" />
+      <Item value="Book`0" priority="0" />
+      <Item value="Be`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Be">
+      <Item value="EquivalentTo`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
