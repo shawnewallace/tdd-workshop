@@ -35,7 +35,7 @@ namespace Thermostat.Lib.Second
 		}
 	}
 
-	public class Furnace
+	public class Furnace : ISwitchableDevice
 	{
 		public Furnace()
 		{

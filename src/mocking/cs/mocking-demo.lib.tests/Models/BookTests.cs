@@ -13,9 +13,9 @@ namespace mocking_demo.lib.tests.Models
 		[Test]
 		public void has_correct_attributes()
 		{
-			_book.Title.Should(Be.EquivalentTo(null));
-			_book.Author.Should(Be.EquivalentTo(null));
-			_book.ISBN.Should(Be.EquivalentTo(null));
+			Assert.IsNull(_book.Title);
+			Assert.IsNull(_book.Author);
+			Assert.IsNull(_book.ISBN);
 		}
 	}
 }

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace mocking_demo.lib
 {
-	public class Book : EntityBase
+	public class EntityBase : IEntity<int>
 	{
-		public string Author { get; set; }
-		public string ISBN { get; set; }
+		public int Id { get; set; }
+		public string Title { get; set; }
 	}
 }
