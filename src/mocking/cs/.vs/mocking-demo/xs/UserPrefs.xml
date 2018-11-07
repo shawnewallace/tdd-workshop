@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="mocking-demo.lib.tests/ServiceTests/BookServiceTests/AddTests.cs">
+    <Files>
+      <File FileName="mocking-demo.lib.tests/ServiceTests/BookServiceTests/AddTests.cs" Line="27" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="mocking-demo" expanded="True">
+            <Node name="mocking-demo.lib.tests" expanded="True" selected="True">
+              <Node name="mocking_demo" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="ServiceTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{CFD6BC29-F3EE-4535-8411-2AA20391B87F}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.RefactoringExample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RefactoringExample/CodeReplacerTest.cs">
+    <Files>
+      <File FileName="RefactoringExample/CodeReplacerTest.cs" Line="14" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
