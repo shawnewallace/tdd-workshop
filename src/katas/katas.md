@@ -1,10 +1,10 @@
-#Katas
+# Katas
 
-####Fizz Buzz
+#### Fizz Buzz
 ```
 Write a program that prints the numbers from 1 to N. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 ```
-####Bowling Game
+#### Bowling Game
 ```
 The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
 A spare is when the player knocks down all 10 pins in two tries.  The bonus for that frame is the number of pins knocked down by the next roll.  So in frame 3 above, the score is 10 (the total number knocked own) plus a bonus of 5 (the number of pins knocked down on the next roll.)
@@ -14,14 +14,14 @@ Write a class named “Game” that has two methods
 roll(pins : int) is called each time the player rolls a ball. The argument is the number of pins knocked down.
 score() : int is called only at the very end of the game.  It returns the total score for that game.
 ```
-####Leap Year Calculator
+#### Leap Year Calculator
 ```
 A year will be a leap year if
 it is divisible by 4 but not by 100.
 If a year is divisible by 4 and by 100,
 it is not a leap year unless it is also divisible by 400.
 ```
-####Tennis Match
+#### Tennis Match
 ```
 This Kata is about implementing a simple tennis game. I came up with it while thinking about Wii tennis, where they have simplified tennis, so each set is one game.
 
@@ -34,7 +34,7 @@ The scoring system is rather simple:
 	b. If the player with advantage wins the ball he wins the game 
 	c. If the player without advantage wins they are back at deuce.
 ```
-####Roman Numeral Converter
+#### Roman Numeral Converter
 ```
 This kata is about converting from Arabic to Roman Numerals and from Roman to Arabic.
 
@@ -77,3 +77,27 @@ CM is 900
 
 But 15 is XV, not XVX.
 ```
+
+#### Urinal Kata
+```
+Rule 1: Get as far away from the door as possible
+
+Rule 2: Never stand next to another dude
+
+Rule 2, Exception 1: There is a line at the door
+
+Rule 2, Exception 2: Someone else has already broken Rule 2
+
+Rule 3: Never stand next to two other dudes
+
+Extra Credit: No Pairing
+
+Javascript skeleton:
+  https://github.com/guyroyse/javascript-skeleton
+
+Coffeescript skeleton:
+  https://github.com/guyroyse/coffee-script-skeleton
+
+Courtesy of Mel Grubb:
+  http://melgrubb.wordpress.com/2012/01/16/urinal-code-kata/
+``` 
