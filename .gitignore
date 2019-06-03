@@ -6,3 +6,8 @@ obj
 TestResults
 .DS_Store
 *.suo
+
+.vs/
+.vscode/
+
+packages/
