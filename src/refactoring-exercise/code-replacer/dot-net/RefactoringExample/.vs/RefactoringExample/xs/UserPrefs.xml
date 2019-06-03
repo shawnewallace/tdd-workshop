@@ -1,14 +1,30 @@
-﻿<Properties StartupConfiguration="{CFD6BC29-F3EE-4535-8411-2AA20391B87F}|Unit Tests">
-  <MonoDevelop.Ide.ItemProperties.RefactoringExample PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="RefactoringExample/CodeReplacerTest.cs">
     <Files>
-      <File FileName="RefactoringExample/CodeReplacerTest.cs" Line="14" Column="28" />
+      <File FileName="RefactoringExample/CodeReplacerTest.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RefactoringExample" expanded="True">
+            <Node name="RefactoringExample" expanded="True">
+              <Node name="CodeReplacerTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="RefactoringExample" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RefactoringExample PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
